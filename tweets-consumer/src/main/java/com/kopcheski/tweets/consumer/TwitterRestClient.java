@@ -20,11 +20,9 @@ public class TwitterRestClient {
 		Iterator<JsonNode> elements = jsonNode.elements().next().iterator();
 		List<String> tweets = new ArrayList<>();
 		while (elements.hasNext()) {
-			JsonNode jsonNodeInternal = elements.next();
-			if ("en".equals(jsonNodeInternal.get("lang").asText())) {
-				JsonNode text = jsonNodeInternal.get("text");
-				String tweet = text.asText();
-				tweets.add(tweet);
+			Tweet tweet = Tweet.from(elements.next());
+			if ("en".equals(tweet.language())) {
+				tweets.add(tweet.text());
 			}
 		}
 		return tweets;
