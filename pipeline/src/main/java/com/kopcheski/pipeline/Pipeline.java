@@ -12,7 +12,7 @@ import java.util.List;
 public class Pipeline {
 
 	public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
-		List<String> tweets = new TwitterRestClient().hashtag("joebiden");
+		List<String> tweets = new TwitterRestClient().hashtag(args[0]);
 		SentimentOverview sentimentOverview = new SentimentOverview();
 		tweets.forEach(tweet -> {
 			List<Sentiment> sentiments = new Analysis().estimateSentiment(tweet);
