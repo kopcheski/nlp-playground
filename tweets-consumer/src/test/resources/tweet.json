@@ -1,0 +1,326 @@
+{
+  "created_at":"Wed Mar 02 20:08:34 +0000 2022",
+  "id":1499114462061547521,
+  "id_str":"1499114462061547521",
+  "text":"RT @PicAxe6: Living on both sides of an issue, choosing one side or the other when convenient, is the definition of one with no principals…",
+  "truncated":false,
+  "entities":{
+    "hashtags":[
+
+    ],
+    "symbols":[
+
+    ],
+    "user_mentions":[
+      {
+        "screen_name":"PicAxe6",
+        "name":"S D Picker /🇺🇸~~",
+        "id":2421481286,
+        "id_str":"2421481286",
+        "indices":[
+          3,
+          11
+        ]
+      }
+    ],
+    "urls":[
+
+    ]
+  },
+  "metadata":{
+    "iso_language_code":"en",
+    "result_type":"recent"
+  },
+  "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id":null,
+  "in_reply_to_status_id_str":null,
+  "in_reply_to_user_id":null,
+  "in_reply_to_user_id_str":null,
+  "in_reply_to_screen_name":null,
+  "user":{
+    "id":1293179195384688640,
+    "id_str":"1293179195384688640",
+    "name":"Mark Henningsgaard",
+    "screen_name":"MarkHenningsga1",
+    "location":"",
+    "description":"Husband, Father, Grandfather, Follower of Christ, Patriot                   #AllLifeIsSacred",
+    "url":null,
+    "entities":{
+      "description":{
+        "urls":[
+
+        ]
+      }
+    },
+    "protected":false,
+    "followers_count":1100,
+    "friends_count":1592,
+    "listed_count":0,
+    "created_at":"Tue Aug 11 13:35:40 +0000 2020",
+    "favourites_count":8930,
+    "utc_offset":null,
+    "time_zone":null,
+    "geo_enabled":false,
+    "verified":false,
+    "statuses_count":9408,
+    "lang":null,
+    "contributors_enabled":false,
+    "is_translator":false,
+    "is_translation_enabled":false,
+    "profile_background_color":"F5F8FA",
+    "profile_background_image_url":null,
+    "profile_background_image_url_https":null,
+    "profile_background_tile":false,
+    "profile_image_url":"http://pbs.twimg.com/profile_images/1293179920235913216/zqHsiVcH_normal.jpg",
+    "profile_image_url_https":"https://pbs.twimg.com/profile_images/1293179920235913216/zqHsiVcH_normal.jpg",
+    "profile_banner_url":"https://pbs.twimg.com/profile_banners/1293179195384688640/1597157153",
+    "profile_link_color":"1DA1F2",
+    "profile_sidebar_border_color":"C0DEED",
+    "profile_sidebar_fill_color":"DDEEF6",
+    "profile_text_color":"333333",
+    "profile_use_background_image":true,
+    "has_extended_profile":true,
+    "default_profile":true,
+    "default_profile_image":false,
+    "following":null,
+    "follow_request_sent":null,
+    "notifications":null,
+    "translator_type":"none",
+    "withheld_in_countries":[
+
+    ]
+  },
+  "geo":null,
+  "coordinates":null,
+  "place":null,
+  "contributors":null,
+  "retweeted_status":{
+    "created_at":"Wed Mar 02 20:00:58 +0000 2022",
+    "id":1499112550323023874,
+    "id_str":"1499112550323023874",
+    "text":"Living on both sides of an issue, choosing one side or the other when convenient, is the definition of one with no… https://t.co/OZtGMJioB2",
+    "truncated":true,
+    "entities":{
+      "hashtags":[
+
+      ],
+      "symbols":[
+
+      ],
+      "user_mentions":[
+
+      ],
+      "urls":[
+        {
+          "url":"https://t.co/OZtGMJioB2",
+          "expanded_url":"https://twitter.com/i/web/status/1499112550323023874",
+          "display_url":"twitter.com/i/web/status/1…",
+          "indices":[
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "metadata":{
+      "iso_language_code":"en",
+      "result_type":"recent"
+    },
+    "source":"<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id":null,
+    "in_reply_to_status_id_str":null,
+    "in_reply_to_user_id":null,
+    "in_reply_to_user_id_str":null,
+    "in_reply_to_screen_name":null,
+    "user":{
+      "id":2421481286,
+      "id_str":"2421481286",
+      "name":"S D Picker /🇺🇸~~",
+      "screen_name":"PicAxe6",
+      "location":"Itinerant",
+      "description":"#Conservative, #NRA Life Benefactor, #Patriot, Army MD, Sandbox #Veteran. Covering policy, 2A, politics & hypocrisy. Keep enemies close. IFBAP. μολὼν λαβέ. 💯",
+      "url":null,
+      "entities":{
+        "description":{
+          "urls":[
+
+          ]
+        }
+      },
+      "protected":false,
+      "followers_count":5336,
+      "friends_count":5507,
+      "listed_count":13,
+      "created_at":"Tue Apr 01 03:50:12 +0000 2014",
+      "favourites_count":2686,
+      "utc_offset":null,
+      "time_zone":null,
+      "geo_enabled":false,
+      "verified":false,
+      "statuses_count":14640,
+      "lang":null,
+      "contributors_enabled":false,
+      "is_translator":false,
+      "is_translation_enabled":false,
+      "profile_background_color":"C0DEED",
+      "profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile":false,
+      "profile_image_url":"http://pbs.twimg.com/profile_images/450844506942738432/S2_CIMFc_normal.jpeg",
+      "profile_image_url_https":"https://pbs.twimg.com/profile_images/450844506942738432/S2_CIMFc_normal.jpeg",
+      "profile_banner_url":"https://pbs.twimg.com/profile_banners/2421481286/1396324565",
+      "profile_link_color":"1DA1F2",
+      "profile_sidebar_border_color":"C0DEED",
+      "profile_sidebar_fill_color":"DDEEF6",
+      "profile_text_color":"333333",
+      "profile_use_background_image":true,
+      "has_extended_profile":false,
+      "default_profile":true,
+      "default_profile_image":false,
+      "following":null,
+      "follow_request_sent":null,
+      "notifications":null,
+      "translator_type":"none",
+      "withheld_in_countries":[
+
+      ]
+    },
+    "geo":null,
+    "coordinates":null,
+    "place":null,
+    "contributors":null,
+    "is_quote_status":true,
+    "quoted_status_id":1498855025182969866,
+    "quoted_status_id_str":"1498855025182969866",
+    "quoted_status":{
+      "created_at":"Wed Mar 02 02:57:40 +0000 2022",
+      "id":1498855025182969866,
+      "id_str":"1498855025182969866",
+      "text":"Kamala Harris fully supported the Los Angeles mayor DEFUNDING the LAPD.  \n\n“I applaud Eric Garcetti for doing what… https://t.co/9HbEb066G0",
+      "truncated":true,
+      "entities":{
+        "hashtags":[
+
+        ],
+        "symbols":[
+
+        ],
+        "user_mentions":[
+
+        ],
+        "urls":[
+          {
+            "url":"https://t.co/9HbEb066G0",
+            "expanded_url":"https://twitter.com/i/web/status/1498855025182969866",
+            "display_url":"twitter.com/i/web/status/1…",
+            "indices":[
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "metadata":{
+        "iso_language_code":"en",
+        "result_type":"recent"
+      },
+      "source":"<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id":1498854826196750336,
+      "in_reply_to_status_id_str":"1498854826196750336",
+      "in_reply_to_user_id":55329156,
+      "in_reply_to_user_id_str":"55329156",
+      "in_reply_to_screen_name":"RNCResearch",
+      "user":{
+        "id":55329156,
+        "id_str":"55329156",
+        "name":"RNC Research",
+        "screen_name":"RNCResearch",
+        "location":"Washington, DC",
+        "description":"Exposing the lies, hypocrisy, and failed far-left policies of Joe Biden and the Democrat Party. Managed by the Republican National Committee.",
+        "url":"https://t.co/oeE4SVAXcg",
+        "entities":{
+          "url":{
+            "urls":[
+              {
+                "url":"https://t.co/oeE4SVAXcg",
+                "expanded_url":"https://gop.com/research/",
+                "display_url":"gop.com/research/",
+                "indices":[
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description":{
+            "urls":[
+
+            ]
+          }
+        },
+        "protected":false,
+        "followers_count":149789,
+        "friends_count":2895,
+        "listed_count":1473,
+        "created_at":"Thu Jul 09 19:08:45 +0000 2009",
+        "favourites_count":26,
+        "utc_offset":null,
+        "time_zone":null,
+        "geo_enabled":false,
+        "verified":true,
+        "statuses_count":28579,
+        "lang":null,
+        "contributors_enabled":false,
+        "is_translator":false,
+        "is_translation_enabled":false,
+        "profile_background_color":"CC0A0A",
+        "profile_background_image_url":"http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https":"https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile":false,
+        "profile_image_url":"http://pbs.twimg.com/profile_images/1431349594978504710/yDNLhX4Y_normal.jpg",
+        "profile_image_url_https":"https://pbs.twimg.com/profile_images/1431349594978504710/yDNLhX4Y_normal.jpg",
+        "profile_banner_url":"https://pbs.twimg.com/profile_banners/55329156/1629786772",
+        "profile_link_color":"F50808",
+        "profile_sidebar_border_color":"030303",
+        "profile_sidebar_fill_color":"8A8585",
+        "profile_text_color":"050505",
+        "profile_use_background_image":false,
+        "has_extended_profile":false,
+        "default_profile":false,
+        "default_profile_image":false,
+        "following":null,
+        "follow_request_sent":null,
+        "notifications":null,
+        "translator_type":"none",
+        "withheld_in_countries":[
+
+        ]
+      },
+      "geo":null,
+      "coordinates":null,
+      "place":null,
+      "contributors":null,
+      "is_quote_status":false,
+      "retweet_count":229,
+      "favorite_count":371,
+      "favorited":false,
+      "retweeted":false,
+      "possibly_sensitive":false,
+      "lang":"en"
+    },
+    "retweet_count":3,
+    "favorite_count":4,
+    "favorited":false,
+    "retweeted":false,
+    "possibly_sensitive":false,
+    "lang":"en"
+  },
+  "is_quote_status":true,
+  "quoted_status_id":1498855025182969866,
+  "quoted_status_id_str":"1498855025182969866",
+  "retweet_count":3,
+  "favorite_count":0,
+  "favorited":false,
+  "retweeted":false,
+  "lang":"en"
+}
