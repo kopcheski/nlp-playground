@@ -1,5 +1,6 @@
 package com.kopcheski.tweets.consumer;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -15,8 +16,14 @@ import java.util.List;
 
 public class TwitterRestClient {
 
+	public String worldWideTrendingTopic() throws URISyntaxException, IOException, InterruptedException {
+		String response = authenticatedRequest("https://api.twitter.com/1.1/trends/place.json?id=1");
+		JsonNode jsonNode = stringJsonToJsonNode(response);
+		return JsonParser.firstTrendingTopic(jsonNode);
+	}
+
 	public List<String> hashtag(String hashtag) throws URISyntaxException, IOException, InterruptedException {
-		JsonNode jsonNode = asJson(hashtag);
+		JsonNode jsonNode = tweetsAsJson(hashtag);
 		Iterator<JsonNode> elements = jsonNode.elements().next().iterator();
 		List<String> tweets = new ArrayList<>();
 		while (elements.hasNext()) {
@@ -28,16 +35,24 @@ public class TwitterRestClient {
 		return tweets;
 	}
 
-	private JsonNode asJson(String hashtag) throws IOException, URISyntaxException, InterruptedException {
+	private JsonNode tweetsAsJson(String hashtag) throws IOException, URISyntaxException, InterruptedException {
 		String tweets = getTweets(hashtag);
+		return stringJsonToJsonNode(tweets);
+	}
+
+	private JsonNode stringJsonToJsonNode(String tweets) throws JsonProcessingException {
 		ObjectMapper objectMapper = new ObjectMapper();
 		return objectMapper.readTree(tweets);
 	}
 
 	private String getTweets(String hashtag) throws IOException, InterruptedException, URISyntaxException {
+		return authenticatedRequest("https://api.twitter.com/1.1/search/tweets.json?q=" + hashtag + "&result_type=recent");
+	}
+
+	private String authenticatedRequest(String url) throws URISyntaxException, IOException, InterruptedException {
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest build = HttpRequest.newBuilder()
-				.uri(new URI("https://api.twitter.com/1.1/search/tweets.json?q=%23" + hashtag + "&result_type=recent"))
+				.uri(new URI(url))
 				.header("Authorization", System.getProperty("TwitterBearerToken"))
 				.GET()
 				.build();

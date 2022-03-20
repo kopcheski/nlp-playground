@@ -12,7 +12,8 @@ import java.util.List;
 public class Pipeline {
 
 	public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
-		List<String> tweets = new TwitterRestClient().hashtag(args[0]);
+		String trendingTopic = new TwitterRestClient().worldWideTrendingTopic();
+		List<String> tweets = new TwitterRestClient().hashtag(trendingTopic);
 		SentimentOverview sentimentOverview = new SentimentOverview();
 		tweets.forEach(tweet -> {
 			List<Sentiment> sentiments = new Analysis().estimateSentiment(tweet);
