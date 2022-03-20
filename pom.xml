@@ -35,6 +35,7 @@
         <module>sentiment-analysis</module>
         <module>tweets-consumer</module>
         <module>pipeline</module>
+        <module>web</module>
     </modules>
 
 </project>
